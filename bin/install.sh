@@ -1,3 +1,5 @@
 #!/bin/sh
-cp emit-ready.sh /bin/emit-ready.sh
-cp wait-for-it.sh /bin/wait-for-it.sh
+DIR=`dirname $(readlink -f $0)`
+echo $DIR
+cp $DIR/emit-ready.sh /bin/emit-ready.sh
+cp $DIR/wait-for-it.sh /bin/wait-for-it.sh
