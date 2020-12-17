@@ -18,3 +18,10 @@ services:
     migrator:
         command: /wait-for-it.sh redis:6379 postgres:5432 composer:10000 elasticsearch:9200 kafka-broker:9092 kafka-rest-proxy:8082 kafka-connect:8083 /entrypoint.sh
 ```
+
+## Dockerfile
+In Dockerfile use:
+```
+RUN git clone https://github.com/Codiway-com/docker-tools.git &&\
+    docker-tools/install.sh
+```
