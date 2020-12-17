@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 : ${SLEEP_LENGTH:=2}
 
 wait_for() {
