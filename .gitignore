@@ -1,0 +1,8 @@
+# Wykluczenia na pliki, które zawierają ustawienia danego developera
+/.idea/deployment.xml
+/.idea/workspace.xml
+/.idea/webServers.xml
+/.idea/dataSources.local.xml
+/.idea/dataSources/
+/.idea/dictionaries/*
+
