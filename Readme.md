@@ -1,4 +1,8 @@
 # Docker tools
+## change-id.sh [user-name] [new-uid] [group-name] [new-gid]
+
+Use that script if you want change uid and gid of provided user.
+
 ## emit-ready.sh
 
 Use that script inside docker entrypoint: ./emit-ready.sh
