@@ -1,3 +1,7 @@
+# !!!!DEPRECATED!!!
+
+New repository is on https://gitlab.oliwa.pks-sa.com/codiway/devops/ci-cd/tools/docker-tools
+
 # Docker tools
 ## change-id.sh [user-name] [new-uid] [group-name] [new-gid]
 
